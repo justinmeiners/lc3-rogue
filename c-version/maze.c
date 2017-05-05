@@ -1,4 +1,9 @@
-j#include <stdio.h>
+/*
+ LC3 Rogue
+ By: Justin Meiners
+ */
+
+#include <stdio.h>
 #include <stdlib.h>
 
 #define W 16
