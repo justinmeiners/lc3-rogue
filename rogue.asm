@@ -1,7 +1,5 @@
-;
 ; LC3 Rogue
-; By: Justin Meiners
-; This is free and unencumbered software released into the public domain.
+; Created By: Justin Meiners (2017)
 
 ;---------------------------
 ; Program Setup
