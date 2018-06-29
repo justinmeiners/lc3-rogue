@@ -69,6 +69,7 @@ KEYBOARD
     LD  R3, D_NEG ; check right
     ADD R3, R0, R3
     BRz RIGHT
+    BRnzp KEYBOARD
 UP
     ADD R2, R2, #-1 
     BRnzp MOVE
