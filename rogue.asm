@@ -141,6 +141,8 @@ DISPLAY_MAZE
     LD  R3, W
     LD  R4, H
     LD  R5, MAZE_POINTER
+    LEA R0, CLEAR_STRING
+    PUTs
 DISPLAY_CELL
     LDR R1, R5, #0      ; cell type
     LEA R2, TILE_CHARS
@@ -163,7 +165,8 @@ DISPLAY_CELL
     RET
 
 NEW_LINE        .FILL  	    x0A         ; new line
-TILE_CHARS   .STRINGZ  " #@KD"      ;  Character set for objects  
+TILE_CHARS      .STRINGZ  " #@KD"      ;  Character set for objects  
+CLEAR_STRING	.STRINGZ	"\e[2J\e[H\e[3J"
 
 
 ; get the address for a maze coordinate given X, Y
