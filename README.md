@@ -1,4 +1,5 @@
 # lc3-rogue
+
 A small roguelike tunnel generator in LC3 assembly. (Homework)
 
 This project contains a basic maze generator and simple movement logic. It might only be useful for students looking for examples of other projects. 
@@ -23,6 +24,8 @@ This project contains a basic maze generator and simple movement logic. It might
 ```
 
 An excellent guide for installing LC3 tools can be found here: [LC3-2048](https://github.com/rpendleton/lc3-2048)
+
+I also wrote a [VM for LC3](https://github.com/justinmeiners/lc3-vm)
 
 ## Project License
 
