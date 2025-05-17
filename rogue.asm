@@ -127,7 +127,7 @@ MARK_DONE
     W_NEG .FILL xFF89
     A_NEG .FILL xFF9F
     S_NEG .FILL xFF8D
-    D_NEG .FILL XFF9C
+    D_NEG .FILL xFF9C
     DOOR_ID_NEG .FILL xFFFC
 
 ;---------------------------
